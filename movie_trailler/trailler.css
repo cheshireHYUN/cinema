@@ -1,0 +1,65 @@
+body{
+    /* 바디(백그라운드)안에 컨테이너라는 흰박스 정렬 */
+    display:flex;
+    /* 세로축이 메인축 */
+    flex-direction: column; 
+    /* 메인축은 스타트지점부터 정렬 */
+    justify-content: flex-start;
+    /* 중앙에있어야하니까 align축, 즉 axis, 가로축을 센터로 둠 */
+     align-items: center;
+     padding: 3% 0%
+}
+
+
+.display{
+    display: flex;
+    width: 60%;
+    flex-direction: column; 
+    /* 메인축은 스타트지점부터 정렬 */
+    justify-content: flex-start;
+    /* 중앙에있어야하니까 align축, 즉 axis, 가로축을 센터로 둠 */
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 3% 4%;
+
+    /* 모서리둥글게  */
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2ex;
+    overflow: hidden;
+    
+}
+
+.slideshow { 
+    width: 50%;
+    padding: 0;
+    margin: 0% 0% 3% 0%;
+}
+/* 
+.trailler{
+    width: 100%; 
+    height: auto;
+    
+} */
+.trailler_0{
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+}
+
+.trailler_playbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.trailler_play_1{
+    margin: 8% 5%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3ex;
+    overflow: hidden;
+}
+.trailler_play_2{
+    margin: 8% 5%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3ex;
+    overflow: hidden;
+}
